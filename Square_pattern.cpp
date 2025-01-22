@@ -49,19 +49,33 @@ using namespace std;
 
     // using character
 
+//for (int i = 1; i<=n; i++)
+//    {
+//        char ch='A';
+//        for (int j = 1;j<=n; j++)
+//        {
+//            cout<<ch;
+//            ch++;
+//          
+//        }
+//            cout<<endl;
+//   
+//        
+//    }
+   char value='A';
 for (int i = 1; i<=n; i++)
     {
-        char ch='A';
         for (int j = 1;j<=n; j++)
         {
-            cout<<ch;
-            ch++;
+            cout<<value <<" ";
+            value++;
           
         }
             cout<<endl;
    
         
     }
+    return 0;
 
 }
 
