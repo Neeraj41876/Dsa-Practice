@@ -28,7 +28,7 @@ for ( int value : vac)
 }
 int main()
 {
-    vector<int> vac ={1,2,3,4,5,6,7,8,9};
+    vector<int> vac ={'A','B','c','D','E','F','G'};
      Reverse(vac);
     
 return 0;
