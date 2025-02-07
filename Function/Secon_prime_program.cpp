@@ -16,10 +16,10 @@ bool isPrime(int num) {
 int main() {
     int limit;
 
-    cout << "Enter the number to check  1 to n numbers  are prime or  not : ";
+    cout << "Enter the number to check  1 to n numbers  are prime or  not  : ";
     cin >> limit;
 
-    cout << "Prime numbers up to " << limit << " are: ";
+    cout << "Prime numbers up to " << limit << " are : ";
     int sum=0;
     for (int i = 2; i <= limit; i++) {
         if (isPrime(i)) {
