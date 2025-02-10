@@ -16,7 +16,7 @@ int binaryToDecimal(int binary) {
 }
 
 int main() {
-    int binary = 100011;
+    int binary = 101;
     cout << "Decimal value: " << binaryToDecimal(binary) << endl;
     
     return 0;
